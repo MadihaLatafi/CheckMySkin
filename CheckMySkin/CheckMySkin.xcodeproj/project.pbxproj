@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9342CF8720B8669700994CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9342CF8620B8669700994CA1 /* AppDelegate.swift */; };
+		9342CF8920B8669700994CA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9342CF8820B8669700994CA1 /* ViewController.swift */; };
+		9342CF8C20B8669700994CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9342CF8A20B8669700994CA1 /* Main.storyboard */; };
+		9342CF8E20B8669A00994CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9342CF8D20B8669A00994CA1 /* Assets.xcassets */; };
+		9342CF9120B8669A00994CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9342CF8F20B8669A00994CA1 /* LaunchScreen.storyboard */; };
+		9342CF9C20B8669A00994CA1 /* CheckMySkinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9342CF9B20B8669A00994CA1 /* CheckMySkinTests.swift */; };
+		9342CFA720B8669A00994CA1 /* CheckMySkinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9342CFA620B8669A00994CA1 /* CheckMySkinUITests.swift */; };
+		9342CFC020B8A41500994CA1 /* starting_img in Resources */ = {isa = PBXBuildFile; fileRef = 9342CFBB20B8A41400994CA1 /* starting_img */; };
+		9342CFC120B8A41500994CA1 /* Resultats.png in Resources */ = {isa = PBXBuildFile; fileRef = 9342CFBC20B8A41400994CA1 /* Resultats.png */; };
+		9342CFC220B8A41500994CA1 /* Docteur.png in Resources */ = {isa = PBXBuildFile; fileRef = 9342CFBD20B8A41400994CA1 /* Docteur.png */; };
+		9342CFC320B8A41500994CA1 /* Checkmyskin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9342CFBE20B8A41400994CA1 /* Checkmyskin.png */; };
+		9342CFC420B8A41500994CA1 /* Photograhier.png in Resources */ = {isa = PBXBuildFile; fileRef = 9342CFBF20B8A41400994CA1 /* Photograhier.png */; };
+		9342CFC820B8A9A100994CA1 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9342CFC720B8A9A100994CA1 /* MyViewController.swift */; };
+		9342CFCA20B8ACE300994CA1 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9342CFC920B8ACE300994CA1 /* MyViewController.xib */; };
+		9342CFCC20B8F49300994CA1 /* no_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9342CFCB20B8F49300994CA1 /* no_image.png */; };
+		9342CFD020B906FD00994CA1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9342CFCF20B906FD00994CA1 /* ResultViewController.swift */; };
+		9342CFDC20B95D3600994CA1 /* CheckMySkin2_597627832.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9342CFDB20B95D3600994CA1 /* CheckMySkin2_597627832.mlmodel */; };
+		9342CFDE20B9602A00994CA1 /* logocheckmyskin89x89.png in Resources */ = {isa = PBXBuildFile; fileRef = 9342CFDD20B9602A00994CA1 /* logocheckmyskin89x89.png */; };
+		9342CFE020B96A8200994CA1 /* empoweryourhealth.png in Resources */ = {isa = PBXBuildFile; fileRef = 9342CFDF20B96A8200994CA1 /* empoweryourhealth.png */; };
+		9342CFE220B96ACB00994CA1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9342CFE120B96ACB00994CA1 /* MapViewController.swift */; };
+		B53E430320B9404E00473130 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B53E430220B9404E00473130 /* Logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9342CF9820B8669A00994CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9342CF7B20B8669700994CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9342CF8220B8669700994CA1;
+			remoteInfo = CheckMySkin;
+		};
+		9342CFA320B8669A00994CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9342CF7B20B8669700994CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9342CF8220B8669700994CA1;
+			remoteInfo = CheckMySkin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9342CF8320B8669700994CA1 /* CheckMySkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMySkin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9342CF8620B8669700994CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9342CF8820B8669700994CA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9342CF8B20B8669700994CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9342CF8D20B8669A00994CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9342CF9020B8669A00994CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9342CF9220B8669A00994CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9342CF9720B8669A00994CA1 /* CheckMySkinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMySkinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9342CF9B20B8669A00994CA1 /* CheckMySkinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMySkinTests.swift; sourceTree = "<group>"; };
+		9342CF9D20B8669A00994CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9342CFA220B8669A00994CA1 /* CheckMySkinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMySkinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9342CFA620B8669A00994CA1 /* CheckMySkinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMySkinUITests.swift; sourceTree = "<group>"; };
+		9342CFA820B8669A00994CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9342CFBB20B8A41400994CA1 /* starting_img */ = {isa = PBXFileReference; lastKnownFileType = file; path = starting_img; sourceTree = "<group>"; };
+		9342CFBC20B8A41400994CA1 /* Resultats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resultats.png; sourceTree = "<group>"; };
+		9342CFBD20B8A41400994CA1 /* Docteur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Docteur.png; sourceTree = "<group>"; };
+		9342CFBE20B8A41400994CA1 /* Checkmyskin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmyskin.png; sourceTree = "<group>"; };
+		9342CFBF20B8A41400994CA1 /* Photograhier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Photograhier.png; sourceTree = "<group>"; };
+		9342CFC720B8A9A100994CA1 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		9342CFC920B8ACE300994CA1 /* MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		9342CFCB20B8F49300994CA1 /* no_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_image.png; sourceTree = "<group>"; };
+		9342CFCF20B906FD00994CA1 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		9342CFDB20B95D3600994CA1 /* CheckMySkin2_597627832.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CheckMySkin2_597627832.mlmodel; sourceTree = "<group>"; };
+		9342CFDD20B9602A00994CA1 /* logocheckmyskin89x89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logocheckmyskin89x89.png; sourceTree = "<group>"; };
+		9342CFDF20B96A8200994CA1 /* empoweryourhealth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empoweryourhealth.png; sourceTree = "<group>"; };
+		9342CFE120B96ACB00994CA1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B53E430220B9404E00473130 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9342CF8020B8669700994CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9342CF9420B8669A00994CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9342CF9F20B8669A00994CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9342CF7A20B8669700994CA1 = {
+			isa = PBXGroup;
+			children = (
+				9342CF8520B8669700994CA1 /* CheckMySkin */,
+				9342CF9A20B8669A00994CA1 /* CheckMySkinTests */,
+				9342CFA520B8669A00994CA1 /* CheckMySkinUITests */,
+				9342CF8420B8669700994CA1 /* Products */,
+				9342CFB620B89B0800994CA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9342CF8420B8669700994CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9342CF8320B8669700994CA1 /* CheckMySkin.app */,
+				9342CF9720B8669A00994CA1 /* CheckMySkinTests.xctest */,
+				9342CFA220B8669A00994CA1 /* CheckMySkinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9342CF8520B8669700994CA1 /* CheckMySkin */ = {
+			isa = PBXGroup;
+			children = (
+				9342CFCB20B8F49300994CA1 /* no_image.png */,
+				9342CFBB20B8A41400994CA1 /* starting_img */,
+				9342CFBE20B8A41400994CA1 /* Checkmyskin.png */,
+				9342CFDD20B9602A00994CA1 /* logocheckmyskin89x89.png */,
+				B53E430220B9404E00473130 /* Logo.png */,
+				9342CFDF20B96A8200994CA1 /* empoweryourhealth.png */,
+				9342CFBD20B8A41400994CA1 /* Docteur.png */,
+				9342CFBF20B8A41400994CA1 /* Photograhier.png */,
+				9342CFE120B96ACB00994CA1 /* MapViewController.swift */,
+				9342CFBC20B8A41400994CA1 /* Resultats.png */,
+				9342CFDB20B95D3600994CA1 /* CheckMySkin2_597627832.mlmodel */,
+				9342CF8620B8669700994CA1 /* AppDelegate.swift */,
+				9342CF8820B8669700994CA1 /* ViewController.swift */,
+				9342CFC720B8A9A100994CA1 /* MyViewController.swift */,
+				9342CFCF20B906FD00994CA1 /* ResultViewController.swift */,
+				9342CF8A20B8669700994CA1 /* Main.storyboard */,
+				9342CFC920B8ACE300994CA1 /* MyViewController.xib */,
+				9342CF8D20B8669A00994CA1 /* Assets.xcassets */,
+				9342CF8F20B8669A00994CA1 /* LaunchScreen.storyboard */,
+				9342CF9220B8669A00994CA1 /* Info.plist */,
+			);
+			path = CheckMySkin;
+			sourceTree = "<group>";
+		};
+		9342CF9A20B8669A00994CA1 /* CheckMySkinTests */ = {
+			isa = PBXGroup;
+			children = (
+				9342CF9B20B8669A00994CA1 /* CheckMySkinTests.swift */,
+				9342CF9D20B8669A00994CA1 /* Info.plist */,
+			);
+			path = CheckMySkinTests;
+			sourceTree = "<group>";
+		};
+		9342CFA520B8669A00994CA1 /* CheckMySkinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9342CFA620B8669A00994CA1 /* CheckMySkinUITests.swift */,
+				9342CFA820B8669A00994CA1 /* Info.plist */,
+			);
+			path = CheckMySkinUITests;
+			sourceTree = "<group>";
+		};
+		9342CFB620B89B0800994CA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9342CF8220B8669700994CA1 /* CheckMySkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9342CFAB20B8669A00994CA1 /* Build configuration list for PBXNativeTarget "CheckMySkin" */;
+			buildPhases = (
+				9342CF7F20B8669700994CA1 /* Sources */,
+				9342CF8020B8669700994CA1 /* Frameworks */,
+				9342CF8120B8669700994CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckMySkin;
+			productName = CheckMySkin;
+			productReference = 9342CF8320B8669700994CA1 /* CheckMySkin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9342CF9620B8669A00994CA1 /* CheckMySkinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9342CFAE20B8669A00994CA1 /* Build configuration list for PBXNativeTarget "CheckMySkinTests" */;
+			buildPhases = (
+				9342CF9320B8669A00994CA1 /* Sources */,
+				9342CF9420B8669A00994CA1 /* Frameworks */,
+				9342CF9520B8669A00994CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9342CF9920B8669A00994CA1 /* PBXTargetDependency */,
+			);
+			name = CheckMySkinTests;
+			productName = CheckMySkinTests;
+			productReference = 9342CF9720B8669A00994CA1 /* CheckMySkinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9342CFA120B8669A00994CA1 /* CheckMySkinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9342CFB120B8669A00994CA1 /* Build configuration list for PBXNativeTarget "CheckMySkinUITests" */;
+			buildPhases = (
+				9342CF9E20B8669A00994CA1 /* Sources */,
+				9342CF9F20B8669A00994CA1 /* Frameworks */,
+				9342CFA020B8669A00994CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9342CFA420B8669A00994CA1 /* PBXTargetDependency */,
+			);
+			name = CheckMySkinUITests;
+			productName = CheckMySkinUITests;
+			productReference = 9342CFA220B8669A00994CA1 /* CheckMySkinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9342CF7B20B8669700994CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Stephane LEAP";
+				TargetAttributes = {
+					9342CF8220B8669700994CA1 = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					9342CF9620B8669A00994CA1 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 9342CF8220B8669700994CA1;
+					};
+					9342CFA120B8669A00994CA1 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 9342CF8220B8669700994CA1;
+					};
+				};
+			};
+			buildConfigurationList = 9342CF7E20B8669700994CA1 /* Build configuration list for PBXProject "CheckMySkin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9342CF7A20B8669700994CA1;
+			productRefGroup = 9342CF8420B8669700994CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9342CF8220B8669700994CA1 /* CheckMySkin */,
+				9342CF9620B8669A00994CA1 /* CheckMySkinTests */,
+				9342CFA120B8669A00994CA1 /* CheckMySkinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9342CF8120B8669700994CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9342CFC220B8A41500994CA1 /* Docteur.png in Resources */,
+				9342CFC120B8A41500994CA1 /* Resultats.png in Resources */,
+				9342CF9120B8669A00994CA1 /* LaunchScreen.storyboard in Resources */,
+				9342CF8E20B8669A00994CA1 /* Assets.xcassets in Resources */,
+				B53E430320B9404E00473130 /* Logo.png in Resources */,
+				9342CFCC20B8F49300994CA1 /* no_image.png in Resources */,
+				9342CFC320B8A41500994CA1 /* Checkmyskin.png in Resources */,
+				9342CF8C20B8669700994CA1 /* Main.storyboard in Resources */,
+				9342CFC020B8A41500994CA1 /* starting_img in Resources */,
+				9342CFE020B96A8200994CA1 /* empoweryourhealth.png in Resources */,
+				9342CFDE20B9602A00994CA1 /* logocheckmyskin89x89.png in Resources */,
+				9342CFC420B8A41500994CA1 /* Photograhier.png in Resources */,
+				9342CFCA20B8ACE300994CA1 /* MyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9342CF9520B8669A00994CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9342CFA020B8669A00994CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9342CF7F20B8669700994CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9342CFD020B906FD00994CA1 /* ResultViewController.swift in Sources */,
+				9342CFE220B96ACB00994CA1 /* MapViewController.swift in Sources */,
+				9342CF8920B8669700994CA1 /* ViewController.swift in Sources */,
+				9342CFDC20B95D3600994CA1 /* CheckMySkin2_597627832.mlmodel in Sources */,
+				9342CFC820B8A9A100994CA1 /* MyViewController.swift in Sources */,
+				9342CF8720B8669700994CA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9342CF9320B8669A00994CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9342CF9C20B8669A00994CA1 /* CheckMySkinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9342CF9E20B8669A00994CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9342CFA720B8669A00994CA1 /* CheckMySkinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9342CF9920B8669A00994CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9342CF8220B8669700994CA1 /* CheckMySkin */;
+			targetProxy = 9342CF9820B8669A00994CA1 /* PBXContainerItemProxy */;
+		};
+		9342CFA420B8669A00994CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9342CF8220B8669700994CA1 /* CheckMySkin */;
+			targetProxy = 9342CFA320B8669A00994CA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9342CF8A20B8669700994CA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9342CF8B20B8669700994CA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9342CF8F20B8669A00994CA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9342CF9020B8669A00994CA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9342CFA920B8669A00994CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos11.2;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9342CFAA20B8669A00994CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos11.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9342CFAC20B8669A00994CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y6K8Y49RD;
+				INFOPLIST_FILE = CheckMySkin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prometheus-Engineering.CheckMySkin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.2;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9342CFAD20B8669A00994CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y6K8Y49RD;
+				INFOPLIST_FILE = CheckMySkin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prometheus-Engineering.CheckMySkin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.2;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9342CFAF20B8669A00994CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckMySkinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prometheus-Engineering.CheckMySkinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMySkin.app/CheckMySkin";
+			};
+			name = Debug;
+		};
+		9342CFB020B8669A00994CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckMySkinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prometheus-Engineering.CheckMySkinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMySkin.app/CheckMySkin";
+			};
+			name = Release;
+		};
+		9342CFB220B8669A00994CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckMySkinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prometheus-Engineering.CheckMySkinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckMySkin;
+			};
+			name = Debug;
+		};
+		9342CFB320B8669A00994CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckMySkinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prometheus-Engineering.CheckMySkinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckMySkin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9342CF7E20B8669700994CA1 /* Build configuration list for PBXProject "CheckMySkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9342CFA920B8669A00994CA1 /* Debug */,
+				9342CFAA20B8669A00994CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9342CFAB20B8669A00994CA1 /* Build configuration list for PBXNativeTarget "CheckMySkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9342CFAC20B8669A00994CA1 /* Debug */,
+				9342CFAD20B8669A00994CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9342CFAE20B8669A00994CA1 /* Build configuration list for PBXNativeTarget "CheckMySkinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9342CFAF20B8669A00994CA1 /* Debug */,
+				9342CFB020B8669A00994CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9342CFB120B8669A00994CA1 /* Build configuration list for PBXNativeTarget "CheckMySkinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9342CFB220B8669A00994CA1 /* Debug */,
+				9342CFB320B8669A00994CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9342CF7B20B8669700994CA1 /* Project object */;
+}
